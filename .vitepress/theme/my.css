@@ -1,0 +1,9 @@
+/* 自定义样式 */
+.list-page .container {
+  width: 100%;
+  max-width: none !important;
+}
+
+.list-page .content {
+  max-width: none !important;
+}
