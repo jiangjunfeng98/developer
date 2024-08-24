@@ -36,6 +36,7 @@ const countryList = [{ name: "中国", en: "China", code: "zh" }]
   justify-content: center;
   font-size: 25px;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .home-card:hover {
