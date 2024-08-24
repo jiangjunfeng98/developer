@@ -3,7 +3,7 @@ aside: false
 pageClass: list-page
 ---
 <script setup>
-import HomeCard from '../components/home/HomeCard.vue'
+import ListCard from '../components/list/Card.vue'
 </script>
 
-<HomeCard/>
+<ListCard/>

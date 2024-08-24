@@ -24,7 +24,7 @@ hero:
 ---
 
 <script setup>
-import HomeCard from '../components/home/HomeCard.vue'
+import HomeCard from '../components/home/Card.vue'
 </script>
 
 <HomeCard/>

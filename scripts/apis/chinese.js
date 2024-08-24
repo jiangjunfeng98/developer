@@ -53,9 +53,10 @@ export const getChinese = async () => {
   const projects = [];
   chineseData.list.forEach(item => {
     item.project.forEach(pro => {
-      projects.push(pro)
+      projects.push({ ...pro, submitter: item.submitter, id: projects.length + 1 })
     })
   })
+  chineseData.list = projects
   return chineseData;
 }
 
